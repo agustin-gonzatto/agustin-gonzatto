@@ -1,7 +1,91 @@
 body{
-    background-color: lightgray;
+    background-color: #0D324D;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
-    color: darkgrey;
+    color: #A188A6;
+}
+h3{
+    color: #A188A6;
+}
+
+header{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #091C2A;
+    padding: 0 1em;
+    align-items: center;
+}
+
+header .logo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.3rem;
+    color: #7F5A83;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    
+}
+
+header nav a{
+    margin: 0 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.btn{
+    display: flex;
+    font-size: 20rem;
+}
+
+header nav a:hover{
+    background-color: #05121b;
+    height: 90%;
+    transition: background-color height 0.5s;
+}
+
+
+main{
+    overflow: hidden;
+    height: 100vh;
+}
+
+#sm{
+    display: flex;
+    margin: 3rem 1rem;
+}
+#sm img{
+    width: 15%;
+    height: 15%;
+    padding-right: 1rem;
+}
+
+
+#txt{
+    background-color: #091C2A;
+    display: flex;
+}
+#smc h3{
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5rem;
+}
+
+#txt p{
+    padding: 1rem;
+    text-align: justify;
+    color: #9DA2AB;
+}
+
+footer{
+    background-color: #091C2A;
 }
