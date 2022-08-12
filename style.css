@@ -1,7 +1,9 @@
 body{
     background-color: #0D324D;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
 }
 
 h2{
@@ -15,7 +17,6 @@ header{
     display: flex;
     height: 5rem;
     justify-content: space-between;
-    overflow: hidden;
     background-color: #091C2A;
     padding: 0 1em;
     align-items: center;
@@ -23,7 +24,7 @@ header{
 
 header .logo{
     font-family: 'Silkscreen', cursive;
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     color: #7F5A83;
 }
 
@@ -40,7 +41,7 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .btn{
@@ -50,7 +51,7 @@ header nav a{
 
 header nav a:hover{
     background-color: #05121b;
-    height: 90%;
+    height: 100%;
     transition: background-color height 0.5s;
 }
 
@@ -63,11 +64,14 @@ main{
 #sm{
     display: flex;
     margin: 3rem 1rem;
+    height: 100vh;
+    align-items: center;
 }
 #sm img{
-    width: 15%;
-    height: 15%;
+    width: 30vw;
+    height: 30vh;
     padding-right: 1rem;
+    
 }
 
 
@@ -88,4 +92,5 @@ main{
 
 footer{
     background-color: #091C2A;
+    height: 10vh;
 }
