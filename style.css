@@ -7,70 +7,71 @@ body{
 }
 
 h2{
-    color: #A188A6;
+    color: hsl(290, 14%, 59%);
+    font-size: 2.6vw;
+    font-family: 'Exo 2', sans-serif;
 }
 h3{
     color: #A188A6;
+    font-size: 2.4vw;
+    font-family: 'Exo 2', sans-serif;
 }
 
 header{
     display: flex;
-    height: 5rem;
+    height: 6rem;
     justify-content: space-between;
     background-color: #091C2A;
     padding: 0 1em;
     align-items: center;
 }
 
-header .logo{
-    font-family: 'Silkscreen', cursive;
-    font-size: 1.3vw;
-    color: #7F5A83;
+.logo h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3vw;
+    color: aliceblue;
 }
 
-header nav{
+nav ul{
     display: flex;
     align-items: center;
-    font-family: 'Silkscreen', cursive;
-    
+    font-family: 'Exo 2', sans-serif;
 }
 
-header nav a{
-    margin: 0 1rem;
+nav li {
+    display: block;
+    height: 200%;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    margin: 0rem 2rem;
     font-size: 2vw;
 }
 
-.btn{
-    display: flex;
-    font-size: 20rem;
-}
-
-header nav a:hover{
+nav li:hover{
     background-color: #05121b;
-    height: 100%;
-    transition: background-color height 0.5s;
+    transition: background-color 0.5s;
 }
-
 
 main{
-    overflow: hidden;
+
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 #sm{
+    background-color: #091C2A;
     display: flex;
-    margin: 3rem 1rem;
-    height: 100vh;
-    align-items: center;
+    margin: 0 10rem;
 }
 #sm img{
-    width: 30vw;
-    height: 30vh;
-    padding-right: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-right: 2em;
     
 }
 
@@ -78,10 +79,6 @@ main{
 #txt{
     background-color: #091C2A;
     display: flex;
-}
-#smc h3{
-    font-family: 'Silkscreen', cursive;
-    font-size: 1.5rem;
 }
 
 #txt p{
@@ -91,6 +88,9 @@ main{
 }
 
 footer{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
     background-color: #091C2A;
-    height: 10vh;
+    height: 100%;
 }
