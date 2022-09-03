@@ -1,96 +1,41 @@
-body{
-    background-color: #0D324D;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-
-}
-
-h2{
-    color: hsl(290, 14%, 59%);
-    font-size: 2.6vw;
-    font-family: 'Exo 2', sans-serif;
-}
-h3{
-    color: #A188A6;
-    font-size: 2.4vw;
-    font-family: 'Exo 2', sans-serif;
-}
-
-header{
+.bar {
     display: flex;
-    height: 6rem;
     justify-content: space-between;
-    background-color: #091C2A;
-    padding: 0 1em;
-    align-items: center;
 }
-
-.logo h1{
-    font-family: 'Exo 2', sans-serif;
-    font-size: 3vw;
-    color: aliceblue;
+nav {
+    width: 50%;
 }
-
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
-    font-family: 'Exo 2', sans-serif;
+    justify-content: space-between;
 }
 
-nav li {
-    display: block;
-    height: 200%;
-    text-decoration: none;
+.container {
+    padding: 2%;
 }
 
-a{
-    text-decoration: none;
-    color:aliceblue;
-    margin: 0rem 2rem;
-    font-size: 2vw;
+.lista {
+    text-align: center;
 }
 
-nav li:hover{
-    background-color: #05121b;
-    transition: background-color 0.5s;
-}
-
-main{
-
-    height: 100vh;
+.listaConteiner {
     display: flex;
     align-items: center;
+
 }
 
-#sm{
-    background-color: #091C2A;
+.tarjeta {
     display: flex;
-    margin: 0 10rem;
+    padding-bottom: 10%;
 }
-#sm img{
+
+.tarjeta2 {
+    background-color: grey;
+    width: 33%;
+    padding: 2%;
+}
+
+img {
     width: 100%;
-    height: 100%;
-    padding-right: 2em;
-    
-}
-
-
-#txt{
-    background-color: #091C2A;
-    display: flex;
-}
-
-#txt p{
-    padding: 1rem;
-    text-align: justify;
-    color: #9DA2AB;
-}
-
-footer{
-    display: flex;
-    align-items:baseline;
-    justify-content: center;
-    background-color: #091C2A;
-    height: 100%;
 }

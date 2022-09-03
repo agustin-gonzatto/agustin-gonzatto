@@ -1,57 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Porfolio</title>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <h1>Agustin Gonzatto</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="trabajos.html">Trabajos</a></li>
-                <li><a href="#clogo">Contacto</a></li>
-            </ul>
-        </nav>
-
-    </header>
-    <main>
-        <div id="inicio"></div>
-        <div id="sm">
-            <img src="https://www.paredro.com/wp-content/uploads/2016/02/ARTE-8-BITS-04.jpg" alt="" srcset="">
-            <div id="smc">
-                <h3>Sobre mi</h3>
-                <div id="txt">                
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quam dolorem labore reprehenderit, itaque soluta praesentium aspernatur libero at ratione! Nisi minus aspernatur ipsam earum libero dolorum voluptatibus nobis totam optio obcaecati soluta laborum inventore et consectetur alias accusamus impedit quibusdam mollitia amet facilis, rerum natus temporibus est vitae! Maxime ab doloribus doloremque porro, aliquid aliquam nobis dolore nostrum dolores libero impedit sint cumque incidunt cum illum error voluptatum animi? Quasi, nihil? Aspernatur aliquam, laboriosam repellat ipsa vel rerum cumque dolorum corrupti, molestiae doloremque mollitia! Nisi iusto excepturi repellendus qui suscipit, facere quia at blanditiis. Libero repudiandae illo veniam ullam.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam optio unde adipisci eos, est repellendus. Maiores quos qui nesciunt sapiente praesentium sed? Ad sequi molestiae dolorem dicta nihil, vitae ea illo? Laboriosam eum libero mollitia, dicta velit voluptas accusamus. Unde itaque aspernatur iusto ea minima amet quisquam nostrum qui doloremque labore obcaecati, quam magnam quidem aliquid, repellendus, accusamus cumque voluptatum! Corrupti architecto laboriosam distinctio ducimus repudiandae porro, a ex totam, laudantium odit voluptate? Quas tempora magni sunt, iure, necessitatibus voluptate culpa fugiat excepturi officia animi at cumque quisquam aperiam explicabo ducimus. Rerum, odio nemo commodi consequuntur tempora exercitationem possimus.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Agustin Gonzatto</title>
+    </head>
+    <body>
+        <header class="bar">
+            <h1>A.G.F.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="trabajos.html">Trabajos</a></li>
+                    <li><a href="#clogo">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="tarjeta">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    <div class="texto">
+                        <h2>Sobre mi</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem autem
+                            vitae nesciunt dolores sequi voluptatum ipsam? Obcaecati beatae
+                            repudiandae magnam a tempora, sapiente autem odio. Temporibus reiciendis
+                            esse quasi, ea consequuntur provident veritatis iste sit. Sint porro
+                            molestiae incidunt vero saepe, dicta esse cumque, pariatur sequi numquam
+                            iste ratione quae?
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="lista">
+                    <h2>Estudios</h2>
+                    <div class="listaConteiner">
+                         <div class="tarjeta2">
+                        <img
+                            src="https://eva.fing.edu.uy/pluginfile.php/1/theme_adaptable/adaptablemarkettingimages/0/Logo_Fing_horizontal_RGB.png"
+                            alt=""
+                            srcset=""
+                        />
+                        <div class="texto">
+                            <h2>Facultad de Ingenieria</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
+                                illo quod, quam nobis ad? Non nesciunt laborum veritatis laudantium
+                                repudiandae doloribus minus, et sint accusantium fugit rem
+                                consequatur, reprehenderit voluptas qui facilis pariatur? Vero at
+                                praesentium cupiditate molestiae, voluptatem maiores dolorem maxime
+                                quis ipsam, illum dolore incidunt obcaecati laudantium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tarjeta2">
+                        <img
+                            src="data:image/jpeg;base64,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"
+                            alt=""
+                            srcset=""
+                        />
+                        <div class="texto">
+                            <h2>Jovenes a Programar</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
+                                illo quod, quam nobis ad? Non nesciunt laborum veritatis laudantium
+                                repudiandae doloribus minus, et sint accusantium fugit rem
+                                consequatur, reprehenderit voluptas qui facilis pariatur? Vero at
+                                praesentium cupiditate molestiae, voluptatem maiores dolorem maxime
+                                quis ipsam, illum dolore incidunt obcaecati laudantium.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tarjeta2">
+                        <img src="https://www.pngitem.com/pimgs/m/609-6092830_trinity-college-london-hd-png-download.png" alt="">
+                        <div class="texto">
+                            <h2>English b2 certificate</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
+                                illo quod, quam nobis ad? Non nesciunt laborum veritatis laudantium
+                                repudiandae doloribus minus, et sint accusantium fugit rem
+                                consequatur, reprehenderit voluptas qui facilis pariatur? Vero at
+                                praesentium cupiditate molestiae, voluptatem maiores dolorem maxime
+                                quis ipsam, illum dolore incidunt obcaecati laudantium.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                   
                 </div>
             </div>
-             </div>
-        
-    </main>
-    <footer>
-        <div id="clogo">
-            <h2>Contacto</h2><br> 
-        </div>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/agustín-gonzatto/" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/agustin-gonzatto" target="_blank">GitHub</a></li>
-                <li><a href="mailto:gonzattoagustin1@gmail.com" target="_blank">Gmail</a></li>
-            </ul>
-        </nav>
-    </footer>
-</body>
+        </main>
+        <footer class="bar">
+            <h2>Contacto</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/agustín-gonzatto/" target="_blank"
+                            >Linkedin</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://github.com/agustin-gonzatto" target="_blank">GitHub</a>
+                    </li>
+                    <li><a href="mailto:gonzattoagustin1@gmail.com" target="_blank">Gmail</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>
