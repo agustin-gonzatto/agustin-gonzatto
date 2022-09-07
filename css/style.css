@@ -9,6 +9,7 @@
     animation: AnimateBG 20s ease infinite;
 }
 
+
 @keyframes AnimateBG {
     0% {
         background-position: 0% 50%;
@@ -27,6 +28,17 @@
   font: 700 normal 2.5em 'tahoma';
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
+
+/*sobre mi*/
+.sm{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 1%;
+}
+
+
 
 /*scroll*/
 
@@ -51,7 +63,7 @@ a {
     align-items: center;
     height: 100vh;
     position: relative;
-    background: rgb(255, 255, 255);
+    
     text-align: center;
     padding: 0 2em;
     h1 {
