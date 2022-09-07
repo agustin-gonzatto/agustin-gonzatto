@@ -1,4 +1,4 @@
-var words = ["Hola!  soy  Agustín Gonzatto", "Desarrollador Front-end", "y estudiante de Ingeniería Eléctrica", " Trabajemos juntos", "Desliza"],
+var words = ["Hola!  soy  Agustín Gonzatto", "Desarrollador Front-end", "y estudiante de Ingeniería Eléctrica", " Trabajemos juntos!", "Desliza"],
     part,
     i = 0,
     offset = 0,
