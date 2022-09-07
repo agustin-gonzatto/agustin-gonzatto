@@ -21,22 +21,28 @@
     }
 }
 
-/*Texto*/
-
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
 
 /*scroll*/
 
 body {
-    font-family: "Century Gothic", "Lato", sans-serif;
+    font-family: "Century Gothic", 'Lato', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  
 }
 
-.et-hero-tab {
+.et-hero-tab{
     background-color: rgb(0, 0, 0);
 }
+
 
 .et-slide {
     display: flex;
@@ -48,16 +54,16 @@ a {
     background: rgb(255, 255, 255);
     text-align: center;
     padding: 0 2em;
-}
-.et-slide h1 {
-    font-size: 2rem;
-    margin: 0;
-    letter-spacing: 1rem;
-}
-.et-slide h3 {
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
-    opacity: 0.6;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
 }
 
 .et-hero-tabs-container {
@@ -81,11 +87,11 @@ a {
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
     font-size: 0.8rem;
-}
-.et-hero-tab:hover {
-    color: white;
-    background: rgba(102, 177, 241, 0.8);
-    transition: all 0.5s ease;
+    &:hover {
+      color:white;
+      background: rgba(102,177,241,0.8);
+      transition: all 0.5s ease;
+    }
 }
 
 .et-hero-tab-slider {
@@ -93,26 +99,21 @@ a {
     bottom: 0;
     width: 0;
     height: 6px;
-    background: #66b1f1;
+    background: #66B1F1;
     transition: left 0.3s ease;
 }
 
 @media (min-width: 800px) {
-    .et-hero-tabs h1,
-    .et-slide h1 {
+  .et-hero-tabs,
+  .et-slide {
+    h1 {
         font-size: 3rem;
     }
-    .et-hero-tabs h3,
-    .et-slide h3 {
+    h3 {
         font-size: 1rem;
     }
-    .et-hero-tab {
-        font-size: 1rem;
-    }
-}
-
-footer nav ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  .et-hero-tab {
+    font-size: 1rem;
+  }
 }
