@@ -35,10 +35,20 @@
     align-items: center;
    justify-content: space-between;
    width: 100%;
-   padding: 1%;
+   padding: 8%;
+}
+.sm img{
+    border-style:solid;
+    width: 100%;
+    max-width: 300px;
+}
+.smt{
+    width: 100rem;
 }
 
-
+.sm b{
+    color: rgb(152, 68,183, 1);
+}
 
 /*scroll*/
 
