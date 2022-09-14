@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .bg {
     width: 100%;
     height: 100vh;
@@ -78,20 +80,22 @@ a {
     align-items: center;
     height: 100vh;
     position: relative;
-    
     text-align: center;
     padding: 0 2em;
-    h1 {
+}
+    .et-slide h1 {
+        color: rgb(0, 0, 0);
+        font: 700 normal 2.5em 'tahoma';
         font-size: 2rem;
-        margin: 0;
+        margin: 100px;
         letter-spacing: 1rem;
     }
-    h3 {
+    .et-slide h3 {
         font-size: 1rem;
         letter-spacing: 0.3rem;
         opacity: 0.6;
     }
-}
+
 
 .et-hero-tabs-container {
     display: flex;
@@ -152,4 +156,65 @@ footer nav ul{
 }
 .contacto{
     text-align: center;
+}
+
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.tech img{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+}
+.tech .card-body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.trabajos{
+    background-color: rgb(128, 128, 128, 0.316);
+}
+
+.carta{
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.face{
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.front img{
+    padding: 10px;
+    width: 90%;
+}
+
+.back{
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+    transform: perspective(600px) rotateY(0deg);
 }
