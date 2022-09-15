@@ -1,4 +1,4 @@
-var words = ["Hola!  soy  Agustín Gonzatto", "Desarrollador Front-end", "y estudiante de Ingeniería Eléctrica", " Trabajemos juntos!", "Desliza"],
+var words = ["Hola! soy Agustín Gonzatto", "Desarrollador Front-end", "Estudiante de Ingeniería Eléctrica", " Trabajemos juntos!"],
     part,
     i = 0,
     offset = 0,
@@ -7,38 +7,31 @@ var words = ["Hola!  soy  Agustín Gonzatto", "Desarrollador Front-end", "y estu
     skip_count = 0,
     skip_delay = 15,
     speed = 70;
-var wordflick = function () {
-    setInterval(function () {
-        if (forwards) {
-            if (offset >= words[i].length) {
-                ++skip_count;
-                if (skip_count == skip_delay) {
-                    forwards = false;
-                    skip_count = 0;
-                }
-            }
-        } else {
-            if (offset == 0) {
-                forwards = true;
-                i++;
-                offset = 0;
-                if (i >= len) {
-                    i = 0;
-                }
-            }
-        }
-        part = words[i].substr(0, offset);
-        if (skip_count == 0) {
-            if (forwards) {
-                offset++;
-            } else {
-                offset--;
-            }
-        }
-        $(".word").text(part);
-    }, speed);
-};
+let j = 0;
+let cont = 0;
 
-$(document).ready(function () {
-    wordflick();
-});
+function avanzar() {
+    if (i >= words[j].length) {
+        j++
+        i = 0;
+        document.getElementsByClassName("word")[0].innerHTML += "<br><br>"
+            typing(words);
+    }
+}
+
+function typing() {
+    if (i < words[j].length) {
+        document.getElementsByClassName("word")[0].innerHTML += words[j].charAt(i);
+        i++;
+        avanzar();
+        setTimeout(typing, 110);
+    }
+
+}
+
+
+
+
+
+ typing(words);
+
