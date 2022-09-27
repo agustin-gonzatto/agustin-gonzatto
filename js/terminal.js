@@ -14,7 +14,7 @@ function avanzar() {
     if (i >= words[j].length) {
         j++
         i = 0;
-        document.getElementsByClassName("word")[0].innerHTML += "<br><br>"
+        document.getElementsByClassName("word")[0].innerHTML += "<br>"
             typing(words);
     }
 }
@@ -28,10 +28,6 @@ function typing() {
     }
 
 }
-
-
-
-
 
  typing(words);
 

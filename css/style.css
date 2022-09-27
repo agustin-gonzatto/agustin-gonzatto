@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Anton&family=Monofett&display=swap');
 .bg {
     width: 100%;
     height: 100vh;
@@ -27,7 +27,8 @@
 .word {
   margin: auto;
   color: white;
-  font: 700 normal 2.5em 'tahoma';
+
+  font: 700 normal 3em 'Anton';
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
@@ -60,7 +61,8 @@
 /*scroll*/
 
 body {
-    font-family: "Century Gothic", 'Lato', sans-serif;
+    /*font-family: "Century Gothic", 'Lato', sans-serif;*/
+    font-family: "Anonymus pro";
 }
 
 a {
@@ -76,22 +78,20 @@ a {
 .et-slide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
-    height: 100vh;
-    position: relative;
+    height: 92vh;
     text-align: center;
-    padding: 0 2em;
 }
     .et-slide h1 {
         color: rgb(0, 0, 0);
-        font: 700 normal 2.5em 'tahoma';
+        font: 700 normal 2.5em 'Anonymus pro';
         font-size: 2rem;
-        margin: 100px;
         letter-spacing: 1rem;
+        padding: 3%;
     }
     .et-slide h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         letter-spacing: 0.3rem;
         opacity: 0.6;
     }
@@ -103,7 +103,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 8vh;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background: #fff;
     z-index: 10;
@@ -149,7 +149,11 @@ a {
   }
 }
 
-footer nav ul{
+.footer{
+    padding-top: 12%;
+}
+.footer nav ul{
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -217,4 +221,38 @@ footer nav ul{
 }
 .card:hover .back{
     transform: perspective(600px) rotateY(0deg);
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: space-around;
+    height: 110vh;
+}   
+.tecno{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: violet;
+    width: 100%;
+    background-clip: content-box;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tecno img{
+    padding: 10px;
+    height: 100%;
+    width: 8%;
+}
+
+.tecnocol{
+    padding: 10px;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(181, 46, 181);
+    border-radius: 20px;
 }
