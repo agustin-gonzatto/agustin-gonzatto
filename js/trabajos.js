@@ -1,8 +1,9 @@
 function mostrar(data) {
     data.trabajos.forEach(element => {
-        document.getElementById("trabajos").innerHTML += `<div class="card item carta">
+        document.getElementById("trabajos").innerHTML += `
+        <div class="card item carta col-lg-3 col-md-6 col-sm-12">
         <div class="face front">
-            <img src="${element.img}" alt="" />
+            <img   src="${element.img}" alt="" />
             <div class="card-body">
                 <p class="card-text"><b>${element.nombre}</b></p>                
             </div>

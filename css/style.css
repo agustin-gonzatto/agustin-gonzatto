@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Anton&family=Monofett&display=swap");
 .bg {
+  
   width: 100%;
-    min-height: 92vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;

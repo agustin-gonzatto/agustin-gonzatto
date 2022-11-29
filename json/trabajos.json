@@ -5,6 +5,12 @@
             "des": "Este proyecto es parte de la cursada de Jovenes a programar, se nos dió una base, la cual fuimos modificando a pedido de los profesores en multiples entregas.",
             "img": "img/cap1.png",
             "link": "https://agustin-gonzatto.github.io/workspace-inicial/principal.html"
+        },
+        {
+            "nombre": "Calculadora",
+            "des": "Simple calculadora programada con JavaScript",
+            "img": "img/Calculadora.png",
+            "link": "https://agustin-gonzatto.github.io/proyectos/Calculadora/index.html"
         }
     ]
 }
