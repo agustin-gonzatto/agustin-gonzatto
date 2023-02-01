@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Roboto&display=swap');
+
+* {
+  --background_p: #f9f9f7;
+  --background_s: #224176;
+  --primary: #61aade;
+  --second: #4e87cf;
+  --third: #5999c7;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  background-color: var(--third);
+  height: 50px;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+ display: inline-block;
+ line-height: 50px;
+  list-style: none;
+  margin: 0 5px;
+}
+
+li:hover{
+  transition: step-start;
+  background-color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+  color: #f9f9f7;
+}
+
+#logo {
+  color: #f9f9f7;
+  font-family: "Courgette", cursive;
+  font-size: 40px;
+  float: left;
+  padding: 0 50px;
+  
+}
+.check{
+  margin-right: 30px;
+  display: none;
+  cursor: pointer;
+  float: right;
+  color: #f9f9f7;
+}
+
+#check{
+  display: none;
+  float: right;
+}
+
+footer{
+
+}
+
+/*MAIN*/
+.white {
+  background-color: var(--background_p);
+  padding: 100px 1rem;
+}
+
+.dark {
+  background-color: var(--background_s);
+  color: #f9f9f7;
+  padding: 100px;
+}
+
+#cv {
+  margin-top:100px ;
+  background-color: var(--second);
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  float:right;
+}
+
+#SobreMi > cv{
+  text-align: right;
+}
+
+#cv:hover {
+  background-color: var(--primary);
+}
+
+.forma{
+  padding: 8vw;
+  background: linear-gradient(45deg, var(--primary) 0%, var(--background_s) 100%);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: liquido 16s ease-in-out infinite;
+  text-align: center;
+}
+
+@keyframes liquido{
+  0%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+  33%{
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-size: 300% 150%;
+  }
+  66%{
+    border-radius: 50% 70% 90% 30% / 30% 50% 70% 10%;
+    background-size: 400% 200%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }    
+}
+
+#SobreMi{
+  display: flex;
+  min-height: calc(100vh - 200px);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+#SobreMi > p{
+  font-size: 2rem;
+  color: var(--background_s);
+}
+
+#SobreMi img{
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
+  max-height: 80vh;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 500);
+}
+
+b{
+  color: var(--primary);
+}
+
+#Formación{
+  text-align: center;
+  min-height: calc(100vh - 200px);
+  }
+
+.titulo{
+padding: 50px 0;
+}
+  
+
+.contenedor-tabla{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta{
+  background-color: var(--background_p);
+  border-radius: 10%;
+  max-width: 350px;
+  
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 500);
+
+}
+.tarjeta h1{
+  color: var(--primary);
+}
+.tarjeta p{
+  color: black;
+  margin: 10px;
+}
+
+.tarjeta img{
+  border-radius: 8%;
+  width: 310px;
+  margin: 20px;
+}
+
+.tarjeta-img-2{
+  max-width: 150px;
+  filter: invert(17%) sepia(93%) saturate(848%) hue-rotate(191deg) brightness(100%) contrast(89%);
+}
+
+#Herramientas{
+  text-align: center;
+  min-height: calc(100vh - 200px);
+}
+
+#Trabajos {
+  text-align: center;
+  min-height: calc(100vh - 150px);
+}
+
+#Contacto {
+  padding: 100px 50px 50px 50px;
+  height: calc(100vh - 200px);
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  max-width: 400px;
+  width: 100%;
+  margin: 10px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 500);
+}
+
+#texto{
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 500);
+}
+
+.enviar {
+  margin-top:10px ;
+  background-color: var(--second);
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.enviar:hover {
+  background-color: var(--primary);
+}
+
+@media(max-width:649px){
+  #cv{
+    float: none;
+  }
+  .check{
+    padding-top: 10px;
+    display: block;
+    font-size: 30px;
+  }
+  header nav ul{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--third);
+    top: 50px;
+    left: 100%;
+  }
+  header nav ul li{
+    display: block;
+  }
+  header nav ul li a{
+    color: #f9f9f7;
+  }
+  nav{
+    text-align: center;
+  }
+
+  #checkbtn:checked ~ header nav ul{
+    left: 0;
+  }
+
+  #Contacto{
+    min-height: calc(100vh - 150px);
+  }
+}

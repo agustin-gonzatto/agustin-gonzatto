@@ -1,267 +1,137 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>Agustin Gonzatto</title>
+    <title>Porfolio</title>
   </head>
   <body>
     <header>
-      <div class="et-hero-tabs">
-        <div class="et-hero-tabs-container">
-          <a class="et-hero-tab" href="#sobreMi">Sobre mi</a>
-          <a class="et-hero-tab" href="#Estudios">Estudios</a>
-          <a class="et-hero-tab" href="#Tecnologias">Tecnologías</a>
-          <a class="et-hero-tab" href="#trabajoss">Trabajos</a>
-          <a class="et-hero-tab" href="#contactos">Contacto</a>
-          <span class="et-hero-tab-slider"></span>
-        </div>
-      </div>
+      <nav>
+        <label id="logo">AGF</label>
+        <ul id="desplegar">
+          <li><a href="#SobreMi">Sobre Mi</a></li>
+          <li><a href="#Formación">Formación</a></li>
+          <li><a href="#Herramientas">Herramientas</a></li>
+          <li><a href="#Trabajos">Trabajos</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+        <input type="checkbox" name="checkbox" id="check">
+        <label for="check" class="check"><i class="fa-solid fa-bars"></i></label>
+      </nav>
     </header>
     <main>
-      <div class="bg">
-        <div class="p-4 word"></div>
+      <div id="SobreMi" class="white">
+        <div class="forma">
+           <img src="/img/Foto.jpg" alt="" />
+        </div>
+        <div>
+          <h1>
+            Hola! Soy Agustín Gonzatto,<br />
+            <b>Desarrollador Junior y Estudiante de Ingeniería Eléctrica</b
+            ><br />Te dejo mi Curriculum Vitae e información personal más abajo
+          </h1>
+          <br />
+          <a id="cv" href="" download="Agustin_Gonzatto_CV.pdf"
+            >Descargar CV <i class="fa-solid fa-arrow-down 2xl"></i
+          ></a>
+        </div>
       </div>
-      <div>
-        <main class="et-main">
-          <div class="et-slide m-4 justify-content-center" id="sobreMi">
-            <div class="row align-items-center">
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <img
-                  class="rounded-5 w-100"
-                  src="img/PXL_20220907_223718249.PORTRAIT.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-8">
-                <h1>Sobre mi</h1>
-                <h3>
-                  Soy un estudiante de 20 años, desde muy chico me apacionó el
-                  mundo de la tecnología y resolución de problemas. Hoy en día
-                  me dedico a estudiar para dos áreas, tanto desarrollo de
-                  software (en principio, <b>desarrollo web</b>) y también,
-                  <b>Ingeniería Eléctrica.</b>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div></div>
-          <div class="et-slide p-4 justify-content-center estudios" id="Estudios">
-            <h1>Estudios</h1>
+      <div id="Formación" class="dark">
+        <h1 class="titulo">Formación</h1>
+        <div class="contenedor-tabla">
+          <div class="tarjeta">
+            <img src="/img/Jap.png" alt="" />
             <div>
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card mb-4 shadow-sm">
-                    <img
-                      class="card-img-top p-1"
-                      data-src=""
-                      alt="Thumbnail [100%x225]"
-                      style="height: 225px; display: block"
-                      src="img/Facultad_de_Ingeniería_(Uruguay).jpg"
-                      data-holder-rendered="true"
-                    />
-                    <div class="card-body">
-                      <p class="card-text">
-                        Universidad de la Republica - Facultad de Ingeniera
-                      </p>
-                      <p class="card-text">Ingreso en 2020</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card mb-4 shadow-sm">
-                    <img
-                      class="card-img-top p-1 "
-                      data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                      alt="Thumbnail [100%x225]"
-                      style="height: 225px; width: 100%; display: block"
-                      src="img/Jap.png"
-                      data-holder-rendered="true"
-                    />
-                    <div class="card-body">
-                      <p class="card-text">Jovenes a programar</p>
-                      <p class="card-text">Cursado en 2022</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card mb-4 shadow-sm">
-                    <img
-                      class="card-img-top p-1"
-                      data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                      alt="Thumbnail [100%x225]"
-                      style="height: 225px; width: 100%; display: block"
-                      src="img/609-6092830_trinity-college-london-hd-png-download.png"
-                      data-holder-rendered="true"
-                    />
-                    <div class="card-body">
-                      <p class="card-text">Inglés nivel b2</p>
-                      <p class="card-text">Certificado por Trinity</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h1>Jóvenes a programar</h1>
+              <p>Curso Desarrollo Web por Plan Ceibal</p>
             </div>
           </div>
-          <div class="et-slide justify-content-center align-items-center p-4" id="Tecnologias">
-            <h1>Tecnologías</h1>
-            <div class="tecnocol">
-              <div class="tecno">
-                <img src="img/pngwing.com(1).png" alt="" />
-                <h5>HTML5</h5>
-                <div class="progress">
-                  <div class="progress-bar" style="width: 90%">
-                  </div>
-                </div>
-              </div>
-              <div class="tecno">
-                <img src="img/pngwing.com.png" alt="" />
-                <h5>CSS</h5>
-                <div class="progress">
-                  <div class="progress-bar" style="width: 80%">
-                  </div>
-                </div>
-              </div>
-              <div class="tecno">
-                <img src="img/js-official-svgrepo-com.svg" alt="" />
-                <h5>JavaScript</h5>
-                <div class="progress">
-                  <div class="progress-bar" style="width: 80%">
-                  </div>
-                </div>
-              </div>
-              <div class="tecno">
-                <img src="img/Bootstrap_logo.svg" alt="" />
-                <h5>Bootstrap</h5>
-                <div class="progress">
-                  <div class="progress-bar" style="width: 50%">
-                    <span class="progress-bar-text"></span>
-                  </div>
-                </div>
-              </div>
+          <div class="tarjeta">
+            <img src="/img/Facultad_de_Ingeniería_(Uruguay).jpg" alt="" />
+            <div>
+              <h1>Facultad de Ingeniería</h1>
+              <p>Cursando Ingeniería Eléctrica desde 2021</p>
             </div>
           </div>
-          <div class="et-slide p-4 justify-content-center trabajos " id="trabajoss">
-            <h1>Trabajos</h1>
-            <h3><b>Por el momento estos son mis proyectos</b></h3>
-            <br />
-            <div class="tech" id="trabajos"></div>
-          </div>
-          <div class="et-slide p-4 justify-content-center" id="contactos">
-            <h1>Contacto</h1>
-            <div class="row align-items-stretch no-gutters contact-wrap">
-              <div class="col-md-12">
-                <div class="form h-100">
-                  <form
-                    class="mb-5"
-                    method="post"
-                    id="contactForm"
-                    action="https://formsubmit.co/gonzattoagustin1@gmail.com"
-                  >
-                    <div class="row">
-                      <div class="col-md-6 form-group mb-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          id="name"
-                          placeholder="Nombre"
-                          required
-                        />
-                      </div>
-                      <div class="col-md-6 form-group mb-3">
-                        <input
-                          type="email"
-                          class="form-control"
-                          name="email"
-                          id="email"
-                          placeholder="Email"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group mb-3"></div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group mb-3">
-                        <textarea
-                          class="form-control"
-                          name="message"
-                          id="message"
-                          cols="30"
-                          rows="4"
-                          placeholder="Escribe tu mensaje"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group">
-                        <input
-                          type="submit"
-                          value="Enviar"
-                          class="btn btn-primary rounded-0 py-2 px-4"
-                        />
-                        <span class="submitting"></span>
-                      </div>
-                    </div>
-                  </form>
-                  <div id="form-message-warning mt-4"></div>
-                </div>
-              </div>
-            </div>
-            <div class="footer">
-              <nav>
-                <ul style="list-style: none">
-                  <li>
-                    <a href="https://github.com/agustin-gonzatto"
-                      ><img src="img/github.svg" alt="" /> agustin-gonzatto</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/agustín-gonzatto/"
-                      ><img src="img/linkedin.svg" alt="" /> agustin-gonzatto</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#tab-other"
-                      ><img src="img/envelope.svg" alt="" />
-                      gonzattoagustin1@gmail.com</a
-                    >
-                  </li>
-                </ul>
-              </nav>
+          <div class="tarjeta">
+            <img src="/img/google_x_cursera.png" alt="" />
+            <div>
+              <h1>Google - Cursera</h1>
+              <p>Curso de Automatización en Python</p>
             </div>
           </div>
-        </main>
+          <div class="tarjeta">
+            <img src="/img/trinity.png" alt="" />
+            <div>
+              <h1>Trinity Collage London</h1>
+              <p>B2 Certificate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Herramientas" class="white">
+        <h1 class="titulo">Herramientas</h1>
+        <div class="contenedor-tabla">
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/html5.svg" alt="" />
+            <h1>HTML 5</h1>
+          </div>
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/css3-alt.svg" alt="" />
+            <h1>CSS 3</h1>
+          </div>
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/js.svg" alt="" />
+            <h1>Java Script</h1>
+          </div>
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/bootstrap.svg" alt="" />
+            <h1>Bootstrap</h1>
+          </div>
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/github.svg" alt="" />
+            <h1>GitHub</h1>
+          </div>
+          <div class="tarjeta">
+            <img class="tarjeta-img-2" src="img/python.svg" alt="" />
+            <h1>Python</h1>
+          </div>
+        </div>
+      </div>
+      <div id="Trabajos" class="dark">
+        <h1 class="titulo">Trabajos - Proyectos</h1>
+        <div class="contenedor-tabla" id="trabajos">
+          
+        </div>
+      </div>
+      <div id="Contacto" class="white">
+        <h1 class="titulo">Contacto</h1>
+        <form  id="form" method="post" action="https://formsubmit.co/gonzattoagustin1@gmail.com">
+          <input type="email" name="email" id="Email" placeholder="Email" required/>
+          <textarea name="message" type="textarea" id="texto" cols="30" rows="10" placeholder="Deja un mensaje" required></textarea>
+          <a class="enviar" type="submit" href="#Contacto" id="enviar">Enviar <i class="fa-solid fa-right-long "></i></a>
+        </form>
       </div>
     </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/agustin-gonzatto"><i class="fa-brands fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/agustin-gonzatto"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+          <li><a href="https://wa.me/59899840289"><i class="fa-brands fa-whatsapp"></i>  +598 9984 0289</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="/js/index.js"></script>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    crossorigin="anonymous"
-  ></script>
-  <script src="js/scroll.js"></script>
-  <script src="js/terminal.js"></script>
-  <script src="js/trabajos.js"></script>
 </html>
