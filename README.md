@@ -1,47 +1,54 @@
-<h2 align="left">Hi 👋! My name is Agustin and I'm a Full Stack Developer, from Uruguay.</h2>
+# Hi there 👋 I'm Agus
 
-###
+I'm a **Junior Backend Developer** focused on building solid, real-world applications using **Java & Spring Boot**.  
+Currently learning, experimenting and preparing myself for my **first professional role in software development**.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=agustin-gonzatto&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=agustin-gonzatto&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+---
 
-###
+## 🚀 Technologies & Tools
 
-###
+### Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="30" alt="spring logo"  />
-</div>
+### Frontend
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-###
+### Database & Tools
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-<div align="left">
-  <a href="gonzattoagustin1@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/agustin-gonzatto/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+---
 
-###
+## 📌 Featured Projects
 
-<br clear="both">
+> These projects focus on **problem solving, clean architecture and real use cases**, not just tutorials.
 
-<img src="https://raw.githubusercontent.com/agustin-gonzatto/agustin-gonzatto/output/snake.svg" alt="Snake animation" />
+### 🔹 In progess
 
-###
+---
+
+## 📊 GitHub Stats
+
+> I focus on **consistent learning and meaningful projects**, not just commits.
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=agustin-gonzatto&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=agustin-gonzatto&layout=compact)
+
+---
+
+## 🌱 Currently Interested In
+- Artificial Intelligence
+- Cloud Computing
+- Cybersecurity
+- Fintech solutions
+
+---
+
+## 🤝 Let's Connect
+
+- 💼 LinkedIn: https://www.linkedin.com/in/agustin-gonzatto/
+- 🌐 Portfolio (In Progess)  
+
+I'm open to **junior or trainee opportunities** and always happy to connect and learn from others.
