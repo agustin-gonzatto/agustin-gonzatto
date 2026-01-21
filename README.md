@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Agus
+# Hi there 👋 I'm Agustin
 
 I'm a **Junior Backend Developer** focused on building solid, real-world applications using **Java & Spring Boot**.  
 Currently learning, experimenting and preparing myself for my **first professional role in software development**.
