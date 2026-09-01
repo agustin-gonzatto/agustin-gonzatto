@@ -2,7 +2,7 @@
 
 **SQL Developer** que trabaja a diario con **SQL Server, T-SQL y stored procedures** en flujos de datos empresariales. Actualmente cursando la Licenciatura en Sistemas en la Universidad ORT Uruguay, y desarrollando proyectos backend con Java/Spring Boot y C# por mi cuenta.
 
-📍 Uruguay · Abierto a oportunidades como **SQL / Backend Developer**, en Uruguay y en equipos remotos internacionales.
+📍 Uruguay · Abierto a oportunidades como **SQL / Backend Developer**.
 
 <details>
 <summary>🇬🇧 Read in English</summary>
@@ -10,8 +10,7 @@
 
 **SQL Developer** working daily with **SQL Server, T-SQL and stored procedures** on enterprise data workflows. Currently studying Licenciatura en Sistemas at Universidad ORT Uruguay, and building backend projects with Java/Spring Boot and C# on the side.
 
-📍 Based in Uruguay · Open to **SQL / Backend Developer** roles, in Uruguay and remote international teams.
-
+📍 Based in Uruguay · Open to **SQL / Backend Developer** roles.
 </details>
 
 ---
@@ -32,8 +31,6 @@
 
 ## 🔨 Construyendo
 
-Dos proyectos personales en desarrollo activo — voy a compartir los detalles cuando estén listos:
-
 - Una **API de notas con gestión de usuarios** (Spring Boot / Java)
 - Una **app de gestión de archivos** (C#)
 
@@ -41,19 +38,11 @@ Dos proyectos personales en desarrollo activo — voy a compartir los detalles c
 <summary>🇬🇧 Read in English</summary>
 <br>
 
-Two personal projects in active development — details coming as they're ready:
-
 - A **notes API with user management** (Spring Boot / Java)
 - A **file management app** (C#)
 
 </details>
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=agustin-gonzatto&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=agustin-gonzatto&layout=compact)
 
 ---
 
@@ -67,12 +56,12 @@ Two personal projects in active development — details coming as they're ready:
 
 ## 🤝 Conectemos
 
-- 💼 LinkedIn: [linkedin.com/in/agustin-gonzatto](https://www.linkedin.com/in/agustin-gonzatto/) — abierto a oportunidades como SQL / Backend Developer, no dudes en escribirme
+- 💼 LinkedIn: [linkedin.com/in/agustin-gonzatto](https://www.linkedin.com/in/agustin-gonzatto/) 
 
 <details>
 <summary>🇬🇧 Read in English</summary>
 <br>
 
-- 💼 LinkedIn: [linkedin.com/in/agustin-gonzatto](https://www.linkedin.com/in/agustin-gonzatto/) — open to SQL / Backend Developer opportunities, feel free to reach out
+- 💼 LinkedIn: [linkedin.com/in/agustin-gonzatto](https://www.linkedin.com/in/agustin-gonzatto/) 
 
 </details>
